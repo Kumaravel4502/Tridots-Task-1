@@ -1,0 +1,10 @@
+# Deployment configuration for Render
+# Use `npm start` instead of `npm run build` for the server
+
+type: web
+name: Tridots-Task-1-Server
+buildCommand: "npm install"
+startCommand: "npm start"
+
+# Specify the root directory for the server
+rootDir: server
